@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62B5C8519109166008D060E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8419109166008D060E /* Foundation.framework */; };
+		F62B5C8719109166008D060E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8619109166008D060E /* CoreGraphics.framework */; };
+		F62B5C8919109166008D060E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8819109166008D060E /* UIKit.framework */; };
+		F62B5C8F19109166008D060E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F62B5C8D19109166008D060E /* InfoPlist.strings */; };
+		F62B5C9119109166008D060E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9019109166008D060E /* main.m */; };
+		F62B5C9519109166008D060E /* TimeScheAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9419109166008D060E /* TimeScheAppDelegate.m */; };
+		F62B5C9819109166008D060E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62B5C9619109166008D060E /* Main.storyboard */; };
+		F62B5C9B19109166008D060E /* TimeScheFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9A19109166008D060E /* TimeScheFirstViewController.m */; };
+		F62B5C9E19109166008D060E /* TimeScheSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9D19109166008D060E /* TimeScheSecondViewController.m */; };
+		F62B5CA019109166008D060E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62B5C9F19109166008D060E /* Images.xcassets */; };
+		F62B5CA719109166008D060E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5CA619109166008D060E /* XCTest.framework */; };
+		F62B5CA819109166008D060E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8419109166008D060E /* Foundation.framework */; };
+		F62B5CA919109166008D060E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8819109166008D060E /* UIKit.framework */; };
+		F62B5CB119109166008D060E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F62B5CAF19109166008D060E /* InfoPlist.strings */; };
+		F62B5CB319109166008D060E /* TimeScheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5CB219109166008D060E /* TimeScheTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F62B5CAA19109166008D060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62B5C7919109166008D060E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62B5C8019109166008D060E;
+			remoteInfo = TimeSche;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F62B5C8119109166008D060E /* TimeSche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSche.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62B5C8419109166008D060E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F62B5C8619109166008D060E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F62B5C8819109166008D060E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F62B5C8C19109166008D060E /* TimeSche-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeSche-Info.plist"; sourceTree = "<group>"; };
+		F62B5C8E19109166008D060E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F62B5C9019109166008D060E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F62B5C9219109166008D060E /* TimeSche-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeSche-Prefix.pch"; sourceTree = "<group>"; };
+		F62B5C9319109166008D060E /* TimeScheAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeScheAppDelegate.h; sourceTree = "<group>"; };
+		F62B5C9419109166008D060E /* TimeScheAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheAppDelegate.m; sourceTree = "<group>"; };
+		F62B5C9719109166008D060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F62B5C9919109166008D060E /* TimeScheFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeScheFirstViewController.h; sourceTree = "<group>"; };
+		F62B5C9A19109166008D060E /* TimeScheFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheFirstViewController.m; sourceTree = "<group>"; };
+		F62B5C9C19109166008D060E /* TimeScheSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeScheSecondViewController.h; sourceTree = "<group>"; };
+		F62B5C9D19109166008D060E /* TimeScheSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheSecondViewController.m; sourceTree = "<group>"; };
+		F62B5C9F19109166008D060E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F62B5CA519109166008D060E /* TimeScheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeScheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62B5CA619109166008D060E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F62B5CAE19109166008D060E /* TimeScheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeScheTests-Info.plist"; sourceTree = "<group>"; };
+		F62B5CB019109166008D060E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F62B5CB219109166008D060E /* TimeScheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F62B5C7E19109166008D060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62B5C8719109166008D060E /* CoreGraphics.framework in Frameworks */,
+				F62B5C8919109166008D060E /* UIKit.framework in Frameworks */,
+				F62B5C8519109166008D060E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62B5CA219109166008D060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62B5CA719109166008D060E /* XCTest.framework in Frameworks */,
+				F62B5CA919109166008D060E /* UIKit.framework in Frameworks */,
+				F62B5CA819109166008D060E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F62B5C7819109166008D060E = {
+			isa = PBXGroup;
+			children = (
+				F62B5C8A19109166008D060E /* TimeSche */,
+				F62B5CAC19109166008D060E /* TimeScheTests */,
+				F62B5C8319109166008D060E /* Frameworks */,
+				F62B5C8219109166008D060E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F62B5C8219109166008D060E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62B5C8119109166008D060E /* TimeSche.app */,
+				F62B5CA519109166008D060E /* TimeScheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62B5C8319109166008D060E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62B5C8419109166008D060E /* Foundation.framework */,
+				F62B5C8619109166008D060E /* CoreGraphics.framework */,
+				F62B5C8819109166008D060E /* UIKit.framework */,
+				F62B5CA619109166008D060E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F62B5C8A19109166008D060E /* TimeSche */ = {
+			isa = PBXGroup;
+			children = (
+				F62B5C9319109166008D060E /* TimeScheAppDelegate.h */,
+				F62B5C9419109166008D060E /* TimeScheAppDelegate.m */,
+				F62B5C9619109166008D060E /* Main.storyboard */,
+				F62B5C9919109166008D060E /* TimeScheFirstViewController.h */,
+				F62B5C9A19109166008D060E /* TimeScheFirstViewController.m */,
+				F62B5C9C19109166008D060E /* TimeScheSecondViewController.h */,
+				F62B5C9D19109166008D060E /* TimeScheSecondViewController.m */,
+				F62B5C9F19109166008D060E /* Images.xcassets */,
+				F62B5C8B19109166008D060E /* Supporting Files */,
+			);
+			path = TimeSche;
+			sourceTree = "<group>";
+		};
+		F62B5C8B19109166008D060E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F62B5C8C19109166008D060E /* TimeSche-Info.plist */,
+				F62B5C8D19109166008D060E /* InfoPlist.strings */,
+				F62B5C9019109166008D060E /* main.m */,
+				F62B5C9219109166008D060E /* TimeSche-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F62B5CAC19109166008D060E /* TimeScheTests */ = {
+			isa = PBXGroup;
+			children = (
+				F62B5CB219109166008D060E /* TimeScheTests.m */,
+				F62B5CAD19109166008D060E /* Supporting Files */,
+			);
+			path = TimeScheTests;
+			sourceTree = "<group>";
+		};
+		F62B5CAD19109166008D060E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F62B5CAE19109166008D060E /* TimeScheTests-Info.plist */,
+				F62B5CAF19109166008D060E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F62B5C8019109166008D060E /* TimeSche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62B5CB619109166008D060E /* Build configuration list for PBXNativeTarget "TimeSche" */;
+			buildPhases = (
+				F62B5C7D19109166008D060E /* Sources */,
+				F62B5C7E19109166008D060E /* Frameworks */,
+				F62B5C7F19109166008D060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeSche;
+			productName = TimeSche;
+			productReference = F62B5C8119109166008D060E /* TimeSche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F62B5CA419109166008D060E /* TimeScheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62B5CB919109166008D060E /* Build configuration list for PBXNativeTarget "TimeScheTests" */;
+			buildPhases = (
+				F62B5CA119109166008D060E /* Sources */,
+				F62B5CA219109166008D060E /* Frameworks */,
+				F62B5CA319109166008D060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F62B5CAB19109166008D060E /* PBXTargetDependency */,
+			);
+			name = TimeScheTests;
+			productName = TimeScheTests;
+			productReference = F62B5CA519109166008D060E /* TimeScheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62B5C7919109166008D060E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TimeSche;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PikkyCorp.;
+				TargetAttributes = {
+					F62B5CA419109166008D060E = {
+						TestTargetID = F62B5C8019109166008D060E;
+					};
+				};
+			};
+			buildConfigurationList = F62B5C7C19109166008D060E /* Build configuration list for PBXProject "TimeSche" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F62B5C7819109166008D060E;
+			productRefGroup = F62B5C8219109166008D060E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62B5C8019109166008D060E /* TimeSche */,
+				F62B5CA419109166008D060E /* TimeScheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F62B5C7F19109166008D060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62B5CA019109166008D060E /* Images.xcassets in Resources */,
+				F62B5C8F19109166008D060E /* InfoPlist.strings in Resources */,
+				F62B5C9819109166008D060E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62B5CA319109166008D060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62B5CB119109166008D060E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F62B5C7D19109166008D060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62B5C9519109166008D060E /* TimeScheAppDelegate.m in Sources */,
+				F62B5C9B19109166008D060E /* TimeScheFirstViewController.m in Sources */,
+				F62B5C9E19109166008D060E /* TimeScheSecondViewController.m in Sources */,
+				F62B5C9119109166008D060E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62B5CA119109166008D060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62B5CB319109166008D060E /* TimeScheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F62B5CAB19109166008D060E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F62B5C8019109166008D060E /* TimeSche */;
+			targetProxy = F62B5CAA19109166008D060E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F62B5C8D19109166008D060E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62B5C8E19109166008D060E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F62B5C9619109166008D060E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62B5C9719109166008D060E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F62B5CAF19109166008D060E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62B5CB019109166008D060E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F62B5CB419109166008D060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F62B5CB519109166008D060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F62B5CB719109166008D060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSche/TimeSche-Prefix.pch";
+				INFOPLIST_FILE = "TimeSche/TimeSche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F62B5CB819109166008D060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSche/TimeSche-Prefix.pch";
+				INFOPLIST_FILE = "TimeSche/TimeSche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F62B5CBA19109166008D060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeSche.app/TimeSche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSche/TimeSche-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeScheTests/TimeScheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F62B5CBB19109166008D060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeSche.app/TimeSche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSche/TimeSche-Prefix.pch";
+				INFOPLIST_FILE = "TimeScheTests/TimeScheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F62B5C7C19109166008D060E /* Build configuration list for PBXProject "TimeSche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62B5CB419109166008D060E /* Debug */,
+				F62B5CB519109166008D060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62B5CB619109166008D060E /* Build configuration list for PBXNativeTarget "TimeSche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62B5CB719109166008D060E /* Debug */,
+				F62B5CB819109166008D060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F62B5CB919109166008D060E /* Build configuration list for PBXNativeTarget "TimeScheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62B5CBA19109166008D060E /* Debug */,
+				F62B5CBB19109166008D060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F62B5C7919109166008D060E /* Project object */;
+}
