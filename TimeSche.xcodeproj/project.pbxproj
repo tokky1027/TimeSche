@@ -7,21 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6046F77191713B6007F7948 /* TSMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6046F75191713B6007F7948 /* TSMViewController.m */; };
+		F6046F78191713B6007F7948 /* TSMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6046F76191713B6007F7948 /* TSMViewController.xib */; };
+		F6046F8119173529007F7948 /* TSSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6046F7F19173529007F7948 /* TSSTableViewController.m */; };
+		F6046F8219173529007F7948 /* TSSTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6046F8019173529007F7948 /* TSSTableViewController.xib */; };
+		F6046F861917396C007F7948 /* TSMemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6046F841917396C007F7948 /* TSMemoTableViewController.m */; };
+		F6046F871917396C007F7948 /* TSMemoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6046F851917396C007F7948 /* TSMemoTableViewController.xib */; };
+		F6046F8D19179686007F7948 /* jikanwari.png in Resources */ = {isa = PBXBuildFile; fileRef = F6046F8C19179686007F7948 /* jikanwari.png */; };
+		F6046F9319179D33007F7948 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = F6046F9219179D33007F7948 /* setting.png */; };
+		F6046F991917A0A5007F7948 /* Memo.png in Resources */ = {isa = PBXBuildFile; fileRef = F6046F981917A0A5007F7948 /* Memo.png */; };
+		F6199464194DE53400543918 /* TSMemoPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6199462194DE53400543918 /* TSMemoPicViewController.m */; };
+		F6199465194DE53400543918 /* TSMemoPicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6199463194DE53400543918 /* TSMemoPicViewController.xib */; };
+		F61D18B41949E2AF009785BD /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F61D18AE1949E2AF009785BD /* libNendAd.a */; };
+		F61D18B51949E2AF009785BD /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F61D18B31949E2AF009785BD /* NADView_readme.txt */; };
+		F61D18B91949E30B009785BD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61D18B81949E30B009785BD /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F61D18BB1949E322009785BD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61D18BA1949E322009785BD /* Security.framework */; };
+		F621A28E192722FF0083D5F1 /* libLibList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5CC319109B4B008D060E /* libLibList.a */; };
+		F621A2A119284DAF0083D5F1 /* TSAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F621A29F19284DAF0083D5F1 /* TSAddTableViewController.m */; };
+		F621A2A219284DAF0083D5F1 /* TSAddTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F621A2A019284DAF0083D5F1 /* TSAddTableViewController.xib */; };
+		F621A2A7192857800083D5F1 /* TSAddDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F621A2A5192857800083D5F1 /* TSAddDTableViewController.m */; };
+		F621A2A8192857800083D5F1 /* TSAddDTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F621A2A6192857800083D5F1 /* TSAddDTableViewController.xib */; };
+		F62302F3195E973000543C64 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F62302F1195E973000543C64 /* CustomCell.m */; };
+		F62302F4195E973000543C64 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F62302F2195E973000543C64 /* CustomCell.xib */; };
+		F62302FA195EFDAF00543C64 /* CustomSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F62302F8195EFDAF00543C64 /* CustomSearchCell.m */; };
+		F62302FB195EFDAF00543C64 /* CustomSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F62302F9195EFDAF00543C64 /* CustomSearchCell.xib */; };
+		F624FB4D193AF4E200EFAFBC /* TSMemoAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F624FB4B193AF4E200EFAFBC /* TSMemoAddTableViewController.m */; };
+		F624FB4E193AF4E200EFAFBC /* TSMemoAddTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F624FB4C193AF4E200EFAFBC /* TSMemoAddTableViewController.xib */; };
 		F62B5C8519109166008D060E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8419109166008D060E /* Foundation.framework */; };
 		F62B5C8719109166008D060E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8619109166008D060E /* CoreGraphics.framework */; };
 		F62B5C8919109166008D060E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8819109166008D060E /* UIKit.framework */; };
 		F62B5C8F19109166008D060E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F62B5C8D19109166008D060E /* InfoPlist.strings */; };
 		F62B5C9119109166008D060E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9019109166008D060E /* main.m */; };
 		F62B5C9519109166008D060E /* TimeScheAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9419109166008D060E /* TimeScheAppDelegate.m */; };
-		F62B5C9819109166008D060E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62B5C9619109166008D060E /* Main.storyboard */; };
-		F62B5C9B19109166008D060E /* TimeScheFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9A19109166008D060E /* TimeScheFirstViewController.m */; };
-		F62B5C9E19109166008D060E /* TimeScheSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5C9D19109166008D060E /* TimeScheSecondViewController.m */; };
 		F62B5CA019109166008D060E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62B5C9F19109166008D060E /* Images.xcassets */; };
 		F62B5CA719109166008D060E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5CA619109166008D060E /* XCTest.framework */; };
 		F62B5CA819109166008D060E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8419109166008D060E /* Foundation.framework */; };
 		F62B5CA919109166008D060E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B5C8819109166008D060E /* UIKit.framework */; };
 		F62B5CB119109166008D060E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F62B5CAF19109166008D060E /* InfoPlist.strings */; };
 		F62B5CB319109166008D060E /* TimeScheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B5CB219109166008D060E /* TimeScheTests.m */; };
+		F64E6FF319120F5C00A85B25 /* TSDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64E6FF119120F5C00A85B25 /* TSDTableViewController.m */; };
+		F64E6FF419120F5C00A85B25 /* TSDTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64E6FF219120F5C00A85B25 /* TSDTableViewController.xib */; };
+		F64E70011913BFE800A85B25 /* TSJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64E6FFF1913BFE800A85B25 /* TSJTableViewController.m */; };
+		F64E70021913BFE800A85B25 /* TSJTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64E70001913BFE800A85B25 /* TSJTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +59,61 @@
 			remoteGlobalIDString = F62B5C8019109166008D060E;
 			remoteInfo = TimeSche;
 		};
+		F62B5CC219109B4B008D060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62B5CBD19109B4B008D060E /* LibList.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6BF71E5186FFCA1002332D6;
+			remoteInfo = LibList;
+		};
+		F62B5CC419109B4B008D060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62B5CBD19109B4B008D060E /* LibList.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6BF71F5186FFCA1002332D6;
+			remoteInfo = LibListTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6046F74191713B6007F7948 /* TSMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMViewController.h; sourceTree = "<group>"; };
+		F6046F75191713B6007F7948 /* TSMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMViewController.m; sourceTree = "<group>"; };
+		F6046F76191713B6007F7948 /* TSMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMViewController.xib; sourceTree = "<group>"; };
+		F6046F7E19173529007F7948 /* TSSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSTableViewController.h; sourceTree = "<group>"; };
+		F6046F7F19173529007F7948 /* TSSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSTableViewController.m; sourceTree = "<group>"; };
+		F6046F8019173529007F7948 /* TSSTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSSTableViewController.xib; sourceTree = "<group>"; };
+		F6046F831917396C007F7948 /* TSMemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMemoTableViewController.h; sourceTree = "<group>"; };
+		F6046F841917396C007F7948 /* TSMemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMemoTableViewController.m; sourceTree = "<group>"; };
+		F6046F851917396C007F7948 /* TSMemoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMemoTableViewController.xib; sourceTree = "<group>"; };
+		F6046F8C19179686007F7948 /* jikanwari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jikanwari.png; sourceTree = "<group>"; };
+		F6046F9219179D33007F7948 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		F6046F981917A0A5007F7948 /* Memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Memo.png; sourceTree = "<group>"; };
+		F6199461194DE53400543918 /* TSMemoPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMemoPicViewController.h; sourceTree = "<group>"; };
+		F6199462194DE53400543918 /* TSMemoPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMemoPicViewController.m; sourceTree = "<group>"; };
+		F6199463194DE53400543918 /* TSMemoPicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMemoPicViewController.xib; sourceTree = "<group>"; };
+		F61D18AE1949E2AF009785BD /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		F61D18AF1949E2AF009785BD /* NADIconArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconArrayView.h; sourceTree = "<group>"; };
+		F61D18B01949E2AF009785BD /* NADIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconLoader.h; sourceTree = "<group>"; };
+		F61D18B11949E2AF009785BD /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
+		F61D18B21949E2AF009785BD /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		F61D18B31949E2AF009785BD /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		F61D18B81949E30B009785BD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F61D18BA1949E322009785BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F621A29E19284DAF0083D5F1 /* TSAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAddTableViewController.h; path = ../TSAddTableViewController.h; sourceTree = "<group>"; };
+		F621A29F19284DAF0083D5F1 /* TSAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSAddTableViewController.m; path = ../TSAddTableViewController.m; sourceTree = "<group>"; };
+		F621A2A019284DAF0083D5F1 /* TSAddTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TSAddTableViewController.xib; path = ../TSAddTableViewController.xib; sourceTree = "<group>"; };
+		F621A2A4192857800083D5F1 /* TSAddDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAddDTableViewController.h; sourceTree = "<group>"; };
+		F621A2A5192857800083D5F1 /* TSAddDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAddDTableViewController.m; sourceTree = "<group>"; };
+		F621A2A6192857800083D5F1 /* TSAddDTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSAddDTableViewController.xib; sourceTree = "<group>"; };
+		F62302F0195E973000543C64 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		F62302F1195E973000543C64 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		F62302F2195E973000543C64 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		F62302F7195EFDAF00543C64 /* CustomSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSearchCell.h; sourceTree = "<group>"; };
+		F62302F8195EFDAF00543C64 /* CustomSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSearchCell.m; sourceTree = "<group>"; };
+		F62302F9195EFDAF00543C64 /* CustomSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSearchCell.xib; sourceTree = "<group>"; };
+		F624FB4A193AF4E200EFAFBC /* TSMemoAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMemoAddTableViewController.h; sourceTree = "<group>"; };
+		F624FB4B193AF4E200EFAFBC /* TSMemoAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMemoAddTableViewController.m; sourceTree = "<group>"; };
+		F624FB4C193AF4E200EFAFBC /* TSMemoAddTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMemoAddTableViewController.xib; sourceTree = "<group>"; };
 		F62B5C8119109166008D060E /* TimeSche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSche.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62B5C8419109166008D060E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F62B5C8619109166008D060E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,17 +124,19 @@
 		F62B5C9219109166008D060E /* TimeSche-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeSche-Prefix.pch"; sourceTree = "<group>"; };
 		F62B5C9319109166008D060E /* TimeScheAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeScheAppDelegate.h; sourceTree = "<group>"; };
 		F62B5C9419109166008D060E /* TimeScheAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheAppDelegate.m; sourceTree = "<group>"; };
-		F62B5C9719109166008D060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F62B5C9919109166008D060E /* TimeScheFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeScheFirstViewController.h; sourceTree = "<group>"; };
-		F62B5C9A19109166008D060E /* TimeScheFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheFirstViewController.m; sourceTree = "<group>"; };
-		F62B5C9C19109166008D060E /* TimeScheSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeScheSecondViewController.h; sourceTree = "<group>"; };
-		F62B5C9D19109166008D060E /* TimeScheSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheSecondViewController.m; sourceTree = "<group>"; };
 		F62B5C9F19109166008D060E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F62B5CA519109166008D060E /* TimeScheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeScheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62B5CA619109166008D060E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F62B5CAE19109166008D060E /* TimeScheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeScheTests-Info.plist"; sourceTree = "<group>"; };
 		F62B5CB019109166008D060E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F62B5CB219109166008D060E /* TimeScheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeScheTests.m; sourceTree = "<group>"; };
+		F62B5CBD19109B4B008D060E /* LibList.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibList.xcodeproj; path = ../LibList/LibList.xcodeproj; sourceTree = "<group>"; };
+		F64E6FF019120F5C00A85B25 /* TSDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDTableViewController.h; sourceTree = "<group>"; };
+		F64E6FF119120F5C00A85B25 /* TSDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDTableViewController.m; sourceTree = "<group>"; };
+		F64E6FF219120F5C00A85B25 /* TSDTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSDTableViewController.xib; sourceTree = "<group>"; };
+		F64E6FFE1913BFE800A85B25 /* TSJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSJTableViewController.h; sourceTree = "<group>"; };
+		F64E6FFF1913BFE800A85B25 /* TSJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSJTableViewController.m; sourceTree = "<group>"; };
+		F64E70001913BFE800A85B25 /* TSJTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSJTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +144,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61D18BB1949E322009785BD /* Security.framework in Frameworks */,
+				F61D18B91949E30B009785BD /* AdSupport.framework in Frameworks */,
+				F621A28E192722FF0083D5F1 /* libLibList.a in Frameworks */,
 				F62B5C8719109166008D060E /* CoreGraphics.framework in Frameworks */,
+				F61D18B41949E2AF009785BD /* libNendAd.a in Frameworks */,
 				F62B5C8919109166008D060E /* UIKit.framework in Frameworks */,
 				F62B5C8519109166008D060E /* Foundation.framework in Frameworks */,
 			);
@@ -82,9 +167,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F61D18AD1949E2AF009785BD /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				F61D18AE1949E2AF009785BD /* libNendAd.a */,
+				F61D18AF1949E2AF009785BD /* NADIconArrayView.h */,
+				F61D18B01949E2AF009785BD /* NADIconLoader.h */,
+				F61D18B11949E2AF009785BD /* NADIconView.h */,
+				F61D18B21949E2AF009785BD /* NADView.h */,
+				F61D18B31949E2AF009785BD /* NADView_readme.txt */,
+			);
+			path = NendAd;
+			sourceTree = "<group>";
+		};
 		F62B5C7819109166008D060E = {
 			isa = PBXGroup;
 			children = (
+				F62302F0195E973000543C64 /* CustomCell.h */,
+				F62302F1195E973000543C64 /* CustomCell.m */,
+				F62302F2195E973000543C64 /* CustomCell.xib */,
+				F62302F7195EFDAF00543C64 /* CustomSearchCell.h */,
+				F62302F8195EFDAF00543C64 /* CustomSearchCell.m */,
+				F62302F9195EFDAF00543C64 /* CustomSearchCell.xib */,
+				F61D18AD1949E2AF009785BD /* NendAd */,
+				F62B5CBD19109B4B008D060E /* LibList.xcodeproj */,
 				F62B5C8A19109166008D060E /* TimeSche */,
 				F62B5CAC19109166008D060E /* TimeScheTests */,
 				F62B5C8319109166008D060E /* Frameworks */,
@@ -104,6 +210,8 @@
 		F62B5C8319109166008D060E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F61D18BA1949E322009785BD /* Security.framework */,
+				F61D18B81949E30B009785BD /* AdSupport.framework */,
 				F62B5C8419109166008D060E /* Foundation.framework */,
 				F62B5C8619109166008D060E /* CoreGraphics.framework */,
 				F62B5C8819109166008D060E /* UIKit.framework */,
@@ -115,13 +223,38 @@
 		F62B5C8A19109166008D060E /* TimeSche */ = {
 			isa = PBXGroup;
 			children = (
+				F6046F8C19179686007F7948 /* jikanwari.png */,
+				F6046F9219179D33007F7948 /* setting.png */,
+				F6046F981917A0A5007F7948 /* Memo.png */,
 				F62B5C9319109166008D060E /* TimeScheAppDelegate.h */,
 				F62B5C9419109166008D060E /* TimeScheAppDelegate.m */,
-				F62B5C9619109166008D060E /* Main.storyboard */,
-				F62B5C9919109166008D060E /* TimeScheFirstViewController.h */,
-				F62B5C9A19109166008D060E /* TimeScheFirstViewController.m */,
-				F62B5C9C19109166008D060E /* TimeScheSecondViewController.h */,
-				F62B5C9D19109166008D060E /* TimeScheSecondViewController.m */,
+				F6046F74191713B6007F7948 /* TSMViewController.h */,
+				F6046F75191713B6007F7948 /* TSMViewController.m */,
+				F6046F76191713B6007F7948 /* TSMViewController.xib */,
+				F64E6FF019120F5C00A85B25 /* TSDTableViewController.h */,
+				F64E6FF119120F5C00A85B25 /* TSDTableViewController.m */,
+				F64E6FF219120F5C00A85B25 /* TSDTableViewController.xib */,
+				F6046F831917396C007F7948 /* TSMemoTableViewController.h */,
+				F6046F841917396C007F7948 /* TSMemoTableViewController.m */,
+				F6046F851917396C007F7948 /* TSMemoTableViewController.xib */,
+				F6046F7E19173529007F7948 /* TSSTableViewController.h */,
+				F6046F7F19173529007F7948 /* TSSTableViewController.m */,
+				F6046F8019173529007F7948 /* TSSTableViewController.xib */,
+				F64E6FFE1913BFE800A85B25 /* TSJTableViewController.h */,
+				F64E6FFF1913BFE800A85B25 /* TSJTableViewController.m */,
+				F64E70001913BFE800A85B25 /* TSJTableViewController.xib */,
+				F621A29E19284DAF0083D5F1 /* TSAddTableViewController.h */,
+				F621A29F19284DAF0083D5F1 /* TSAddTableViewController.m */,
+				F621A2A019284DAF0083D5F1 /* TSAddTableViewController.xib */,
+				F621A2A4192857800083D5F1 /* TSAddDTableViewController.h */,
+				F621A2A5192857800083D5F1 /* TSAddDTableViewController.m */,
+				F621A2A6192857800083D5F1 /* TSAddDTableViewController.xib */,
+				F624FB4A193AF4E200EFAFBC /* TSMemoAddTableViewController.h */,
+				F624FB4B193AF4E200EFAFBC /* TSMemoAddTableViewController.m */,
+				F624FB4C193AF4E200EFAFBC /* TSMemoAddTableViewController.xib */,
+				F6199461194DE53400543918 /* TSMemoPicViewController.h */,
+				F6199462194DE53400543918 /* TSMemoPicViewController.m */,
+				F6199463194DE53400543918 /* TSMemoPicViewController.xib */,
 				F62B5C9F19109166008D060E /* Images.xcassets */,
 				F62B5C8B19109166008D060E /* Supporting Files */,
 			);
@@ -155,6 +288,15 @@
 				F62B5CAF19109166008D060E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F62B5CBE19109B4B008D060E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62B5CC319109B4B008D060E /* libLibList.a */,
+				F62B5CC519109B4B008D060E /* LibListTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +347,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = PikkyCorp.;
 				TargetAttributes = {
+					F62B5C8019109166008D060E = {
+						DevelopmentTeam = WWXNM2U6GC;
+					};
 					F62B5CA419109166008D060E = {
 						TestTargetID = F62B5C8019109166008D060E;
 					};
@@ -221,6 +366,12 @@
 			mainGroup = F62B5C7819109166008D060E;
 			productRefGroup = F62B5C8219109166008D060E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F62B5CBE19109B4B008D060E /* Products */;
+					ProjectRef = F62B5CBD19109B4B008D060E /* LibList.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F62B5C8019109166008D060E /* TimeSche */,
@@ -229,14 +380,45 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F62B5CC319109B4B008D060E /* libLibList.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLibList.a;
+			remoteRef = F62B5CC219109B4B008D060E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F62B5CC519109B4B008D060E /* LibListTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LibListTests.xctest;
+			remoteRef = F62B5CC419109B4B008D060E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F62B5C7F19109166008D060E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F624FB4E193AF4E200EFAFBC /* TSMemoAddTableViewController.xib in Resources */,
+				F6046F8D19179686007F7948 /* jikanwari.png in Resources */,
+				F621A2A8192857800083D5F1 /* TSAddDTableViewController.xib in Resources */,
+				F61D18B51949E2AF009785BD /* NADView_readme.txt in Resources */,
+				F621A2A219284DAF0083D5F1 /* TSAddTableViewController.xib in Resources */,
 				F62B5CA019109166008D060E /* Images.xcassets in Resources */,
+				F6046F871917396C007F7948 /* TSMemoTableViewController.xib in Resources */,
+				F64E6FF419120F5C00A85B25 /* TSDTableViewController.xib in Resources */,
+				F6046F78191713B6007F7948 /* TSMViewController.xib in Resources */,
+				F6046F9319179D33007F7948 /* setting.png in Resources */,
+				F62302F4195E973000543C64 /* CustomCell.xib in Resources */,
 				F62B5C8F19109166008D060E /* InfoPlist.strings in Resources */,
-				F62B5C9819109166008D060E /* Main.storyboard in Resources */,
+				F6199465194DE53400543918 /* TSMemoPicViewController.xib in Resources */,
+				F62302FB195EFDAF00543C64 /* CustomSearchCell.xib in Resources */,
+				F6046F991917A0A5007F7948 /* Memo.png in Resources */,
+				F6046F8219173529007F7948 /* TSSTableViewController.xib in Resources */,
+				F64E70021913BFE800A85B25 /* TSJTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +437,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F624FB4D193AF4E200EFAFBC /* TSMemoAddTableViewController.m in Sources */,
 				F62B5C9519109166008D060E /* TimeScheAppDelegate.m in Sources */,
-				F62B5C9B19109166008D060E /* TimeScheFirstViewController.m in Sources */,
-				F62B5C9E19109166008D060E /* TimeScheSecondViewController.m in Sources */,
+				F62302F3195E973000543C64 /* CustomCell.m in Sources */,
+				F64E6FF319120F5C00A85B25 /* TSDTableViewController.m in Sources */,
+				F62302FA195EFDAF00543C64 /* CustomSearchCell.m in Sources */,
+				F6046F8119173529007F7948 /* TSSTableViewController.m in Sources */,
+				F64E70011913BFE800A85B25 /* TSJTableViewController.m in Sources */,
+				F621A2A7192857800083D5F1 /* TSAddDTableViewController.m in Sources */,
+				F621A2A119284DAF0083D5F1 /* TSAddTableViewController.m in Sources */,
+				F6046F861917396C007F7948 /* TSMemoTableViewController.m in Sources */,
+				F6199464194DE53400543918 /* TSMemoPicViewController.m in Sources */,
 				F62B5C9119109166008D060E /* main.m in Sources */,
+				F6046F77191713B6007F7948 /* TSMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +478,6 @@
 				F62B5C8E19109166008D060E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F62B5C9619109166008D060E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F62B5C9719109166008D060E /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		F62B5CAF19109166008D060E /* InfoPlist.strings */ = {
@@ -383,10 +566,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeSche/TimeSche-Prefix.pch";
 				INFOPLIST_FILE = "TimeSche/TimeSche-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NendAd",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E4A9512D-0D4D-4C60-AC3F-4E884633AF3A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,10 +587,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hiroshi Tokito (WWXNM2U6GC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeSche/TimeSche-Prefix.pch";
 				INFOPLIST_FILE = "TimeSche/TimeSche-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NendAd",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E4A9512D-0D4D-4C60-AC3F-4E884633AF3A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +662,7 @@
 				F62B5CB819109166008D060E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F62B5CB919109166008D060E /* Build configuration list for PBXNativeTarget "TimeScheTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +671,7 @@
 				F62B5CBB19109166008D060E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

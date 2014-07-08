@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2428EC4-5272-47E8-9732-2AF3F445A182</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TimeSche</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5344E698-443D-42FD-B717-F62425D8F069</key>
+		<string>https://github.com/tokky1027/TimeSche.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TimeSche.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5344E698-443D-42FD-B717-F62425D8F069</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tokky1027/TimeSche.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5344E698-443D-42FD-B717-F62425D8F069</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5344E698-443D-42FD-B717-F62425D8F069</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TimeSche</string>
+		</dict>
+	</array>
+</dict>
+</plist>

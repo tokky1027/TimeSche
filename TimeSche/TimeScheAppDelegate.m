@@ -7,14 +7,53 @@
 //
 
 #import "TimeScheAppDelegate.h"
+#import "TSAddTableViewController.h"
+#import "LibList/IIViewDeckController.h"
 
 @implementation TimeScheAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    self.toyBox = [[NSMutableDictionary alloc] init]; // お片づけ箱を確保
+    
+    self.deckController = [self generateControllerStack];
+    self.window.rootViewController = self.deckController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
+
+- (IIViewDeckController*)generateControllerStack
+{
+    // タブの中身（UIViewController）をインスタンス化
+    tab1 = [[TSMViewController alloc]init]; // タブ1
+    tab3 = [[TSSTableViewController alloc]init]; // タブ2
+    tab2 = [[TSMemoTableViewController alloc]init]; // タブ2
+    NSArray *tabs = [NSArray arrayWithObjects:tab1, tab2, tab3,nil];
+    // タブコントローラをインスタンス化
+    tabController = [[UITabBarController alloc]init];
+    // タブコントローラにタブの中身をセット
+    [tabController setViewControllers:tabs animated:NO];
+    //ナビゲーションバーのインスタンス化
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:tabController];
+    
+    //左テーブルをインスタンス化
+    TSAddTableViewController* menu =[[TSAddTableViewController alloc]init];
+    
+    IIViewDeckController* deckController =  [[IIViewDeckController alloc] initWithCenterViewController:navi leftViewController:menu];
+    deckController.leftSize = 150;
+    
+    [deckController disablePanOverViewsOfClass:NSClassFromString(@"_UITableViewHeaderFooterContentView")];
+    
+    [self.toyBox setObject:menu forKey:@"TSAddTableViewSave"];
+    [self.toyBox setObject:tab1 forKey:@"TSMViewSave"];
+    [self.toyBox setObject:tab2 forKey:@"TSMemoViewSave"];
+    return deckController;
+}
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
